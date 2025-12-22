@@ -104,10 +104,6 @@ Update database credentials in BookDAO.java
 
 Run project on server
 
-Access in browser:
-
-http://localhost:8080/OnlineBookStore/BookServlet
-
 🔐 Security & Validation
 
 Uses POST method for form submission
