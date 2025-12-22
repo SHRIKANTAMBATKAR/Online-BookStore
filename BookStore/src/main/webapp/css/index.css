@@ -1,0 +1,89 @@
+/* Page base */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    padding: 30px;
+    color: #333;
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Add Book button */
+.add-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.add-btn:hover {
+    background-color: #27ae60;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table header */
+th {
+    background-color: #34495e;
+    color: #ffffff;
+}
+
+/* Table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #eef5ff;
+}
+
+.action-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.edit-btn {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.edit-btn:hover {
+    background-color: #2980b9;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #e74c3c;
+    font-weight: normal;
+}
