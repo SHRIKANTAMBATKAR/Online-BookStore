@@ -10,7 +10,8 @@
 </head>
 <body>
 <form action="BookServlet" method="post" class="form-card">
-    <h2>Add New Book</h2>
+
+    <h2>Add More New Book</h2>
 
     <input type="hidden" name="action" value="add">
 
@@ -34,4 +35,5 @@
     <a href="BookServlet" class="back-link">← Back to Book List</a>
 </form>
 </body>
+
 </html>
