@@ -92,7 +92,7 @@ JSP displays updated data to the user
 
 Clone the repository
 
-git clone https://github.com/SHRIKANTAMBATKAR/OnlineBookStore.git
+git clone https://github.com/SHRIKANTAMBATKAR/Online-BookStore.git
 
 Open the project in Eclipse IDE
 
