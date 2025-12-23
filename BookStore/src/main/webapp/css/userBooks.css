@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* Base */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding: 40px;
+    margin: 0;
+}
+
+/* Heading */
+h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+/* Search box */
+.search-box {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.search-box button:hover {
+    background: #1d4ed8;
+}
+
+/* Card container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: start;   
+}
+
+/* Book card */
+.book-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Book details */
+.book-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.book-author {
+    color: #555;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.book-count {
+    font-size: 14px;
+    color: #0f766e;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+/* Issue button */
+.issue-btn {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #16a34a;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.issue-btn:hover {
+    background: #15803d;
+}
+
+/* Empty message */
+.empty {
+    text-align: left;
+    color: red;
+    font-size: 18px;
+}
+
+/* Back button */
+.back {
+    display: flex;
+    justify-content: center;  
+    margin-top: 30px;
+}
+
+.back a {
+    background-color: #e5e7eb;
+    color: #374151;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid #d1d5db;
+    transition: all 0.25s ease;
+}
+
+.back a:hover {
+    background-color: #d1d5db;
+    color: #111827;
+}
+
+.back a:active {
+    transform: translateY(1px);
+}
