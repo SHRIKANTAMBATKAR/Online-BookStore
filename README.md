@@ -1,136 +1,119 @@
 # 📚 Online Book Store Management System
 
-A Java-based Online Book Store Management System developed using JSP, Servlets, JDBC, and MySQL.
-The project follows the MVC (Model–View–Controller) architecture and performs complete CRUD operations for managing books.
+A Java-based **Online Book Store Management System** developed using **JSP, Servlets, JDBC, and MySQL**.  
+The application follows the **MVC (Model–View–Controller)** architecture and supports complete **CRUD operations** for managing book records.
 
-📌 Project Overview
+---
 
-This application is designed to digitally manage book records for libraries, colleges, or small institutions.
-It replaces manual record keeping with a database-driven web application, improving accuracy and efficiency.
+## 📌 Project Overview
 
-🎯 Objectives
+This web application is designed to digitally manage book records for libraries, colleges, or small institutions.  
+It replaces manual record-keeping with a **database-driven system**, improving accuracy, efficiency, and data consistency.
 
-To manage book records efficiently
+---
 
-To implement MVC architecture in a Java web application
+## 🎯 Objectives
 
-To perform CRUD operations using JDBC
+- Efficiently manage book records  
+- Implement MVC architecture in a Java web application  
+- Perform CRUD operations using JDBC  
+- Understand real-world Java web development workflow  
 
-To understand real-world Java web development workflow
+---
 
-🚀 Features
+## 🚀 Features
 
-📖 Book Management
-   
-ㅤAdd new books
+### 📖 Book Management
+- Add new books  
+- Update existing book details  
+- Delete books  
+- View all books in a tabular format  
 
-ㅤUpdate existing book details
+### ⚙️ Functional Highlights
+- Servlet-based controller logic  
+- JSP with JSTL for dynamic UI rendering  
+- Secure database operations using `PreparedStatement`  
+- Clean and user-friendly admin interface  
 
-ㅤDelete books
+---
 
-ㅤView all books in tabular format
+## 🛠️ Technology Stack
 
-⚙️ Functional Highlights
+| Layer      | Technology                     |
+|------------|--------------------------------|
+| Frontend   | JSP, HTML, CSS                 |
+| Backend    | Java, Servlets, JDBC           |
+| Database   | MySQL                          |
+| Server     | Apache Tomcat                  |
 
-ㅤServlet-based controller
+---
 
-ㅤJSP with JSTL for dynamic UI
+## 🧱 Architecture (MVC)
 
-ㅤSecure database operations using PreparedStatement
+### Model
+- `Book.java` – Represents the book entity  
+- `BookDAO.java` – Handles all database operations  
 
-ㅤClean and user-friendly admin interface
+### View
+- `listBooks.jsp`  
+- `addBook.jsp`  
+- `editBook.jsp`  
 
-🛠️ Technology Stack
+### Controller
+- `BookServlet.java` – Handles HTTP requests and controls application flow  
 
-Layer	  ㅤㅤㅤTechnology
+---
 
-Frontend	ㅤㅤJSP, HTML, CSS
+## 🔄 Application Workflow
 
-Backend	ㅤㅤ Java, Servlets ,JDBC
+1. User interacts with JSP pages  
+2. Request is sent to `BookServlet`  
+3. Servlet determines action using request parameters  
+4. DAO performs database operations using JDBC  
+5. Response is forwarded back to JSP  
+6. JSP displays updated data to the user  
 
-Databaseㅤㅤ	MySQL
+---
 
-Serverㅤㅤㅤ	Apache Tomcat
+## ▶️ How to Run the Project
 
-🧱 Architecture (MVC)
-Model
+1. Clone the repository  
+   git clone https://github.com/SHRIKANTAMBATKAR/Online-BookStore.git
+2. Open the project in Eclipse IDE
 
-Book.java – Represents book data
+3. Add and configure Apache Tomcat Server
 
-BookDAO.java – Handles all database operations
+4. Create a MySQL database and required table
 
-View
+5. Update database credentials in BookDAO.java
 
-listBooks.jsp
+6. Run the project on the server
 
-addBook.jsp
+## 🔐 Security & Validation
 
-editBook.jsp
+- Uses POST method for form submission
+- Uses PreparedStatement to prevent SQL injection
+- Delete operation includes a confirmation prompt
 
-Controller
-
-BookServlet.java – Handles requests and controls flow
-
-
-🔄 Application Workflow
-
-User interacts with JSP pages
-
-Request goes to BookServlet
-
-Servlet decides action based on request parameter
-
-DAO performs database operation using JDBC
-
-Response is sent back to JSP
-
-JSP displays updated data to the user
-
-
-
-▶️ How to Run the Project
-
-Clone the repository
-
-git clone https://github.com/SHRIKANTAMBATKAR/Online-BookStore.git
-
-Open the project in Eclipse IDE
-
-Add Apache Tomcat Server
-
-Create MySQL database and table
-
-Update database credentials in BookDAO.java
-
-Run project on server
-
-🔐 Security & Validation
-
-Uses POST method for form submission
-
-Uses PreparedStatement to prevent SQL injection
-
-Delete operation includes confirmation prompt
-
-📚 Learning Outcomes
+## 📚 Learning Outcomes
 
 Practical understanding of JSP and Servlets
 
-JDBC connection and database handling
+JDBC-based database connectivity and handling
 
 MVC architecture implementation
 
-Web application request–response cycle
+Web application request–response lifecycle
 
-UI design for admin systems
+UI design for admin-based systems
 
 🚧 Future Enhancements
 
 User authentication and authorization
 
-Book search and filter
+Book search and filtering
 
-Pagination for large records
+Pagination for large datasets
 
 Book issue and return module
 
@@ -140,8 +123,3 @@ REST API implementation
 
 Shrikant Ambatkar
 Java & Web Development Enthusiast
-
-⭐ Support
-
-If you like this project, please consider giving it a ⭐ on GitHub.
-
