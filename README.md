@@ -97,29 +97,21 @@ It replaces manual record-keeping with a **database-driven system**, improving a
 
 ## 📚 Learning Outcomes
 
-Practical understanding of JSP and Servlets
+- Practical understanding of JSP and Servlets
+- JDBC-based database connectivity and handling
+- MVC architecture implementation
+- Web application request–response lifecycle
+- UI design for admin-based systems
 
-JDBC-based database connectivity and handling
+## 🚧 Future Enhancements
 
-MVC architecture implementation
-
-Web application request–response lifecycle
-
-UI design for admin-based systems
-
-🚧 Future Enhancements
-
-User authentication and authorization
-
-Book search and filtering
-
-Pagination for large datasets
-
-Book issue and return module
-
-REST API implementation
+- User authentication and authorization
+- Book search and filtering
+- Pagination for large datasets
+- Book issue and return module
+- REST API implementation
 
 🧑‍💻 Author
 
-Shrikant Ambatkar
+Shrikant Ambatkar </BR> 
 Java & Web Development Enthusiast
