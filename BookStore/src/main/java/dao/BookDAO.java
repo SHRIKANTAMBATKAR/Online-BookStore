@@ -9,7 +9,7 @@ public class BookDAO {
 
     private String url = "jdbc:mysql://localhost:3306/bookstore";
     private String user = "root";
-    private String password = "SHRIKANT@2024";
+    private String password = "Enter your mysql password ";
 
     private Connection getConnection() throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
