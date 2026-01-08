@@ -1,4 +1,5 @@
 # 📚 Online Book Store Management System
+
 A Java-based **Online Book Store Management System** developed using **JSP, Servlets, JDBC, and MySQL**.  
 The application follows the **MVC (Model–View–Controller)** architecture and supports complete **CRUD operations** for managing book records.
 
